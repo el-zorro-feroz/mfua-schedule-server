@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+option go_package = "./proto/professor;proto";
+
+message Professor {
+    string id = 1;
+    string first_name = 2;
+    string second_name = 3;
+    string last_name = 4;
+}
+
+service ProfessorService {
+  // rpc ListProfessors(ListProfessorsRequest) returns (ListProfessorsResponse);
+  // rpc GetProfessor(GetProfessorRequest) returns (Professor);
+  // rpc CreateProfessor(CreateProfessorRequest) returns (Professor);
+  // rpc UpdateProfessor(UpdateProfessorRequest) returns (Professor);
+  // rpc DeleteProfessor(DeleteProfessorRequest) returns (google.protobuf.Empty);
+}
