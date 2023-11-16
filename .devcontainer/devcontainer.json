@@ -1,0 +1,13 @@
+{
+    "name": "MFUA Schedule Server",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"ms-azuretools.vscode-docker",
+				"golang.Go",
+				"zxh404.vscode-proto3"
+			]
+        }
+    }
+}
